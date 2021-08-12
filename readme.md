@@ -1,4 +1,5 @@
 ## Gradient Color Generator
+<a href="https://mayckonrebecci.github.io/gradient-color-generator/"><strong>GRADIENT COLOR GENERATOR PAGE</strong></a>
 
 Gerador de cor gradiente(degradê) feito com HTML, CSS e Javascript.
 
