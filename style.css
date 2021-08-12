@@ -1,0 +1,74 @@
+:root {
+	--mainBGColor: #5c67ff;
+	--myWhite: #f3f3f3;
+	--myBlack: #131313;
+	--myBlackGrey: #333;
+	--myGreen: #859c1f;
+	--secondaryColor: #ffcb3a;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	text-decoration: none;
+	border: none;
+}
+
+body {
+    font-family: "Open Sans";
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right,#5c67ff, #ffcb3a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--myBlack);
+}
+
+#container {
+    border: var(--myBlack) solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--myWhite);
+    width: 45%;
+    height: 35%;
+    border-radius: 1.25rem;
+}
+
+#container #container-items{
+    width: 100%;
+    text-align: center;
+}
+
+#container #container-items h1 {
+    font-size: 1.8rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+#container #container-items h2 {
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+
+#container #container-items #input-color {
+    border-radius: .3125rem;
+    width: 6.25rem;
+    margin: 1.25rem auto;
+    padding: .1875rem;
+    background-color: var(--myBlack);
+}
+
+#container #container-items #input-color input{
+    height: 1.875rem;
+    background-color: var(--myBlack);
+}
+
+#container #container-items .css-bg-text{
+    font-weight: 400;
+    font-size: 1rem;
+}
